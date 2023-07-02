@@ -1,17 +1,18 @@
 # MI PASE Uniautónoma - Landing Page 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/miguelcerra-design/MiPase-Uniautonoma-Landing-Page/main/assets/captura.png?raw=true)
 
 ## Ejemplo en vivo
-- [URL-de-github-pages-de-este-proyecto](URL-de-github-pages-de-este-proyecto)
-- [URL-de-la-api](URL-de-la-api)
+- [Ver sitio real](https://mipase.uac.edu.co/)
+- [Ver sitio desde - Github Page](https://miguelcerra-design.github.io/MiPase-Uniautonoma-Landing-Page/)
+
 
 ## Descripción 📑
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Esta landing page fue creada con el propósito de brindar un espacio promocional para nuestra aplicación móvil. Inicialmente, comenzó como un [Mockup](https://www.behance.net/gallery/173165855/Landing-Page-Mipase-Web) construido en Figma, el cual luego fue proporcionado a los desarrolladores del equipo. Al final, tuve la oportunidad de contribuir en la construcción del sitio junto al equipo de desarrollo.
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻 
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Durante el proceso de desarrollo, surgieron algunos obstáculos en los cuales necesitaba aplicar JavaScript, pero debido a mis limitaciones de conocimiento, no pude resolverlos por mi cuenta. Fue en ese momento cuando recurrí a herramientas como Chat GPT de OpenAI para comprender y aprender a aplicarlo de manera adecuada.
 
 ## Tecnologías 🛠
 <!-- Iconos sacados de: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
@@ -19,21 +20,12 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
 [![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://es.wikipedia.org/wiki/JavaScript)
 
-## Vista previa del proyecto
-Si quieres hechas un vistazo al proyecto, te recomiendo:
-
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
 
 ## Autor ✒️
-**TU NOMBRE**
+**Miguel Ángel Cerra D.**
 
-* [micorreo@midominio.com](micorreo@midominio.com)
-* [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
-* [Behance](https://www.behance.net/tu-url-de-behance)
-* [Dribble](https://www.dribble.com/tu-url-de-dribble)
-* [Porfolio web](https://tu-dominio.com/)
+* [LinkedIn](https://www.linkedin.com/in/miguelcerra-design/)
+* [Behance](https://www.behance.net/miguelcerra-design)
 
 ## Instalación 
 Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
