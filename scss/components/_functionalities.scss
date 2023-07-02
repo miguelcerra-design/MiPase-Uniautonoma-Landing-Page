@@ -1,0 +1,44 @@
+.functionalities{
+    width: 100%;
+    padding: 5em 0 7em;
+    background-color: var(--white-bg);
+
+    @include media (){
+        padding: 5em 0 5em;
+    }
+
+    &__container {
+        width: 90%;
+        max-width: 71.25em;
+        margin: 0 auto;
+        
+        color: var(--dark);
+        @include grid (4,center,center,1em);
+    }
+    &__card {
+        width: 100%;
+        height: 100%;
+        padding: 1.5em;
+        @include flex ( column , nowrap , center , flex-start);
+        gap: .5em;
+        border: solid .0625rem var(--grey);
+        border-radius: .75em;
+
+        &:first-child {
+            border: transparent;
+        }
+        &:hover {
+            border: solid .0625rem var(--blue-light-brand);
+        }    
+        
+    }
+    &__icon {
+        max-width: 3.375em;
+        height: 3.375em;
+    }
+    &__svg {
+        width: 100%;
+        color: var(--dark);
+        fill: currentColor;
+    }
+}

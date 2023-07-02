@@ -1,0 +1,35 @@
+.about{
+    width: 100%;
+    padding: 5em 0;
+    background-color: var(--grey-light);
+
+    @include media (480px){
+        padding-top: 21.87em;
+
+    }
+
+    &__container {
+        width: 90%;
+        max-width: 71.25em;
+        margin: 0 auto;
+    }
+    &__texts {
+        @include flex ( column , nowrap , center , start);
+        gap: 1em;
+        color: var(--dark);
+        width: 50%;
+
+        @include media (1024px){
+            width: 90%;
+    
+        }
+
+        @include media (480px){
+            width: 100%;
+    
+        }
+    }
+    
+}
+
+

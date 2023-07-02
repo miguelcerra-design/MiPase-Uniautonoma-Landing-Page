@@ -1,0 +1,182 @@
+.download {
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--black);
+
+
+    &__container {
+        width: 90%;
+        max-width: 1140px;
+        max-height: max-content;
+        margin: 0 auto;
+        @include flex ( row , nowrap , center , center);
+        gap: 1em;
+        
+        @include media (){
+            @include flex ( column , nowrap , center , center);
+        
+        }
+        
+
+    }
+
+    &__smartphones {
+        position: relative;
+        width: 50%;
+        @include flex ( row , nowrap , flex-start , center);
+        gap: 1em;
+
+        @include media (){
+        display: none;
+    }
+    }
+
+    &__smartphone {
+        
+        width: 100%;
+        min-width: 199.26px;
+        max-width: 199.26px;
+        padding: 12px;
+        filter: var(--black-shadown);
+        border: solid 1px var(--grey-dark);
+        border-radius: 12px;
+
+        &--left{
+            position: absolute;
+            right: 350px;
+            transform: translate(0%,-5%);
+        }
+        &--right{
+            position: absolute;
+            right: 25%;
+        }
+
+        &--one {
+            max-width: 175.81px;
+            height: 349.38px;
+            border-radius: 12px;
+            background: url(/assets/img/bg-video-login.png) no-repeat center center / cover;
+        }
+        
+        &--two {
+            max-width: 175.81px;
+            height: 349.38px;
+            border-radius: 12px;
+            background: url(/assets/img/bg-video-support.png) no-repeat center center / cover;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        right: 10%;
+        width: 100%;
+        max-width: 130px;
+        max-height: 130px;
+
+        @include media (1024px){
+        }
+        
+    }
+
+    &__svg {
+        width: 100%;
+
+        &--white {
+            color: var(--white);
+            fill: currentColor;
+        }
+
+        &--dark{
+            color: var(--dark);
+            fill: currentColor;
+        }
+        &--blue{
+            color: var(--blue-googleplay);
+            fill: currentColor;
+        }
+        &--green{
+            color: var(--green-googleplay);
+            fill: currentColor;
+        }
+        &--yellow{
+            color: var(--yellow-googleplay);
+            fill: currentColor;
+        }
+        &--gold{
+            color: var(--gold-brand);
+            fill: currentColor;
+        }
+        &--red{
+            color: var(--red-googleplay);
+            fill: currentColor;
+        }
+        &--redbrand{
+            color: var(--red-brand);
+            fill: currentColor;
+        }
+
+        &--mipase {
+            width: 130px;
+            height: 130px;
+            background-color: var(--white);
+            border: solid 8px var(--black);
+            border-radius: 1.5em;
+        }
+    }
+
+    &__info{
+        width: 50%;
+        @include flex (column , nowrap , center, flex-start);
+        gap: 1em;
+        color: var(--white);
+
+        @include media (){
+            width: 100%;
+        }
+    }
+    &__stores {
+        width: 100%;
+        @include flex (row , nowrap , flex-start , center);
+        gap: 1em;
+        @include media (840px) {
+            @include flex (column , nowrap , center , flex-start);
+            
+        }
+        @include media () {
+            @include flex (row , nowrap , flex-start , center);
+
+
+        }
+        
+    }
+
+    &__cta {
+        width: 100%;
+        max-width: 177px;
+        min-width: 135px;
+        transform: translateY(0%);
+        transition: all .3s cubic-bezier(.31,-0.69,.67,1.47) ;
+
+        &:hover { 
+            transform: translateY(10%);
+        }
+
+
+        &--google{
+            background-color: var(--white-bg);
+            border: solid 1px var(--grey-dark);
+            border-radius: .5em;
+        }
+        &--apple{
+            background-color: var(--white-bg);
+            border: solid 1px var(--grey-dark);
+            border-radius: .5em;
+        }
+
+    }
+
+    &__butom {
+        width: 100%;
+        
+    }
+}

@@ -1,0 +1,102 @@
+:root {
+    /* Colors - base*/
+    --white-bg              : #ffffff;
+    --black                 : #101010;
+    --dark                  : #272727;
+    --white                 : #ffffff;
+    --grey-light            : #fafafa;
+    --grey                  : #D9D9D9;
+    --grey-dark             : #b3b3b3;
+    --black-gradiend        :linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8519782913165266) 60%);
+    --black-shadown         :drop-shadow(0em 0em .75em rgba(0, 0, 0, 0.2));
+    
+    /* Colors - Brand */
+    --gold-brand            : #EDB804;
+    --gold-light-brand      : #FDD44D;
+    --blue-brand            : #6680B4;
+    --blue-light-brand      : #AAB8D5;
+    --red-brand             : #96090D;
+    
+    /* Colors - Brand other */
+    
+    --green-whatsapp        : #40C24E;
+
+    --green-googleplay      : #07F076;
+    --blue-googleplay       : #00D7FE;
+    --red-googleplay        : #E72950;
+    --yellow-googleplay     : #FFC601;
+
+    --yellow-autonoma       : #FFE812;
+    --gold-autonoma         : #DAC028;
+    --red-autonoma          : #C20F14;
+    --blue-autonoma         : #6B86C0;
+    --black-autonoma        : #000;
+    --dark-autonoma         : #272727;
+    --white-autonoma        : #fff;
+
+    /* Color - Alerts */
+    --red-invalid           : #dc3545;
+
+
+
+    /* Typography */
+    --font-primary: 'Nunito', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        
+    /* Colors - base*/
+    --white-bg              : #272727;
+    --black                 : #1b1a1a; /* ya */
+    --dark                  : #c2c2c2; /* ya */
+    --white                 : #dbdbdb; /* quede por acá */
+    --grey-light            : #2d2d2d;
+    --grey                  : #707070;
+    --grey-dark             : #707070;
+    --black-gradiend        :linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8519782913165266) 60%);
+    --black-shadown         :drop-shadow(0em 0em .75em rgba(0, 0, 0, 0.2));
+    
+    /* Colors - Brand */
+    --gold-brand            : #dbad15;
+    --gold-light-brand      : #f4c839;
+    --blue-brand            : #6680B4;
+    --blue-light-brand      : #9badd3;
+    --red-brand             : #bc3034;
+    
+    /* Colors - Brand other */
+    
+    --green-whatsapp        : #2fa93b;
+
+    --green-googleplay      : #51de95;
+    --blue-googleplay       : #46c0d6;
+    --red-googleplay        : #d74b67;
+    --yellow-googleplay     : #dcbb43;
+
+    --yellow-autonoma       : #c9b500;
+    --gold-autonoma         : #cdaf03;
+    --red-autonoma          : #b50006;
+    --blue-autonoma         : #6B86C0;
+    --black-autonoma        : #000;
+    --dark-autonoma         : #c2c2c2;
+    --white-autonoma        : #fff;
+
+     /* Color - Alerts */
+
+
+
+    }
+}
+
+/*
+@media (prefers-contrast: high) {
+    :root {}
+}
+*/
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}

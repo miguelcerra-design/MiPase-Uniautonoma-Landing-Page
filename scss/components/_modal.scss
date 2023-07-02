@@ -1,0 +1,104 @@
+.modal {
+    display: grid;
+    place-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    cursor: none;
+  
+    &.active {
+      opacity: 1;
+      display: grid;
+      place-content: center;
+      z-index: 2000;
+      pointer-events: auto;
+      cursor: auto;
+    }
+
+    &__container {
+      display: grid;
+      margin: 0 auto;
+      width: 90%;
+      max-width: 43.75em;
+      max-height: 90vh;
+      background-color: var(--white-bg);
+      border-radius: .75em;
+      gap: 1em;
+    }
+
+    &__header {
+      padding: 1em 2em;
+      border-bottom: solid 1px var(--grey);
+    }
+
+    &__terms {
+      border-radius: 0;
+      padding: 0 2em;
+      overflow: scroll;
+
+      &::-webkit-scrollbar {
+        -webkit-appearance: none;
+      }
+      
+      &::-webkit-scrollbar {
+        width: .375em;
+        height: .375em;
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--gold-brand);
+        border-radius: .375em;
+      }
+      
+      &::-webkit-scrollbar-corner {
+        background: transparent;
+      }
+    
+    }
+    
+    
+    &__list {
+      list-style-type: auto;
+      padding: 0 0 0 3em;
+    }
+    
+    &__item {
+      list-style-type: auto;
+  
+    }
+    
+    &--footer {
+      display: flex;
+      justify-content: end;
+      width: 100%;
+      padding-top: 1em;
+      border-top: solid 1px var(--grey);
+      align-items: center;
+      padding: 1em 2em;
+    }
+    
+    &__link {
+      cursor: pointer;
+      display: inline-block;
+      color: var(--black-autonoma);
+      text-decoration: none;
+      font-weight: 700;
+      background-color: var(--gold-brand);
+      border-radius: .5em;
+      padding: .5em 1em;
+
+      &__link:hover {
+        color: var(--black-autonoma);
+        background-color: var(--gold-light-brand);
+      }
+  
+    }
+  }
+

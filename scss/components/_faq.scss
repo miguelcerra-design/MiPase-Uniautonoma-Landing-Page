@@ -1,0 +1,95 @@
+.faq {
+
+
+    width: 100%;
+    padding: 7em 0 5em;
+
+    @include media (){
+        padding: 5em 0;
+    }
+
+    &__container {
+        width: 90%;
+        max-width: 1140px;
+        margin: 0 auto;
+
+        @include flex( column , nowrap , flex-start , center);
+        gap: 2em;
+    }
+    &__texts {
+        max-width: 90%;
+        text-align: center;
+
+    }
+    &__accordeons {
+        width: 100%;
+        @include flex (row , nowrap , flex-start , flex-start);
+        gap: 1em;
+        @include media (1024px){
+            @include flex (column , wrap , center , flex-start);
+        } 
+
+    }
+
+    &__column {
+        width: 100%;
+        @include flex (column , nowrap , center , flex-start);
+        gap: 1em;
+    }
+    &__accordeon {
+        width: 100%;
+        flex-grow: 1;
+
+
+        &--title{
+            width: 100%;
+            background-color: var(--grey-light);
+            border-radius: 8px;
+            padding: 12px 16px;
+            list-style: none;
+            cursor: pointer;
+
+            color: var(--dark); /* posiblemente lo borre es para iconos de desplegar accordeon*/
+            fill: currentColor; /* posiblemente lo borre es para iconos de desplegar accordeon*/
+            
+            @include flex (row, nowrap , space-between , center);
+
+            &::after {
+                content: url("/assets/img/icon/arrowdown2.svg");
+                width: 24px;
+                height: 24px;
+
+                fill: currentColor; /* posiblemente lo borre es para iconos de desplegar accordeon*/
+                color: var(--dark); /* posiblemente lo borre es para iconos de desplegar accordeon*/
+            }
+
+        }
+        
+        /* arrow up*/
+        &[open] {
+            .faq__accordeon--title {
+                &::after{
+                    content: url("/assets/img/icon/arrowup2.svg");
+                    width: 24px;
+                    height: 24px;
+                }
+
+            }
+        }
+        /* closed arrow up */
+    }
+}
+.accordeon {
+    &__texts {
+        @include flex (column , nowrap , center , flex-start);
+        gap: 1em;
+        padding: 1em;
+    }
+    &__list {
+        padding: 0 0 0 2.5em;
+    }
+    &__item {
+        list-style-type: auto;
+        @include text (.875em , 1.5rem , 600);
+    }
+}

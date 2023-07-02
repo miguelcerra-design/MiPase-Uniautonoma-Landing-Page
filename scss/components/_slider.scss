@@ -1,0 +1,89 @@
+.sliders {
+    width: 100%;
+    @include media (480px) {
+        width: 100%;
+    }
+
+    &__container {
+        background-color: aqua;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1140px;
+        height: 0em;
+
+        @include flex ( row, nowrap, flex-end, center);
+        
+
+        
+        @include media (480px){
+            @include flex (column , nowrap , center , center);
+            gap: 3em;
+        }
+        
+    }
+}
+
+.slider{
+    max-width: 50%;
+    min-height: 18.75em;
+    @include flex ( row , nowrap , center , center);
+    transform: translateY(-15%);
+    
+
+    @include media (1024px) {
+        max-width: 45%;
+        transform: translateY(-30%);
+    }
+    @include media () {
+        max-width: 90%;
+        transform: translateY(0%);
+    }
+}
+
+
+.slide{
+    width: 100%;
+    max-width: 22.5em;
+    position: relative;
+    overflow: hidden;
+    
+
+    @include media (1024px) {
+        max-width: 18.625em;
+    }
+    
+    &__cards {
+        width: 500%;
+        @include flex (row , nowrap , center , center);
+        animation: slide 15s infinite 0s ease backwards;
+    }
+    &__card {
+        width: 100%;
+        max-width: 22.5em;
+    }
+    &__img {
+        width: 100%;
+        filter: var(--black-shadown);
+    }
+    &__smartphone {
+        width: 100%;
+        max-width: 22.5em;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__svg  {
+        width: 100%;
+        color: var(--grey-dark);
+        fill: currentColor;
+    }
+    &__time {
+        @include text ( .7em , 1em , 400 );
+        color: var(--grey-dark);
+
+        position: absolute;
+        top: 2.5%;
+        left: 8%;
+    }
+}

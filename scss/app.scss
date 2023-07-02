@@ -1,0 +1,22 @@
+@import './partials/reset' , "./partials/custom"  , "./partials/mixins" , "./partials/typography" , "./partials/keyframes";
+
+/* header */
+@import './components/header';
+/* hero */
+@import './components/hero';
+/* slider */
+@import './components/slider';
+/* about */
+@import './components/about';
+/* functionalities */
+@import './components/functionalities';
+/* download */
+@import './components/download';
+/* faq */
+@import './components/faq';
+/* modals */
+@import './components/modal';
+/* footer */
+@import './components/footer';
+/* Proximamente */
+@import './components/coming-soon';

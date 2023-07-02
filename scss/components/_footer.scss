@@ -1,0 +1,97 @@
+.footer {
+    width: 100%;
+    padding: 1.5em 0;
+    border-top: solid 1px var(--grey);
+
+
+    &__container {
+        width: 90%;
+        max-width: 1140px;
+        margin: 0 auto;        
+        @include flex(row, nowrap, space-between, center);
+        gap: 1em;
+
+        @include media (850px) {
+            @include flex(column-reverse, nowrap, space-between, center);
+
+        }
+
+    } 
+    &__logo {
+        width: 100%;
+        max-width: 150px;
+    }     
+    &__autonoma {
+        &--yellow{
+            color:var(--yellow-autonoma);
+            fill: currentColor;
+        }
+        &--gold{
+            color:var(--gold-autonoma);
+            fill: currentColor;
+        }
+        &--red{
+            color:var(--red-autonoma);
+            fill: currentColor;
+        }
+        &--blue{
+            color:var(--blue-autonoma);
+            fill: currentColor;
+        }
+        &--black{
+            color:var(--black-autonoma);
+            fill: currentColor;
+        }
+        &--dark{
+            color:var(--dark-autonoma);
+            fill: currentColor;
+        }
+        &--white{
+            color:var(--white-autonoma);
+            fill: currentColor;
+        }
+    }
+    &__svg {
+        //&--autonoma{}
+        &--whatsapp {
+            display:block;
+            color: var(--green-whatsapp  );
+        }
+    }
+    &__menu {
+        @include flex(row, nowrap, space-between, center);
+        gap: 1em;
+        
+        @include media (680px) {
+            @include flex(column, nowrap, space-between, center);
+        }
+
+    }
+
+    &__button {
+        cursor: pointer; /*creo se debe eliminar luego*/
+        padding: .5em  1em;
+        border-radius: .5em;
+
+        &:hover {
+            background-color: var(--grey-light);
+        }
+    }
+    &__link {
+        padding: .5em  1em;
+        border-radius: .5em;
+        @include flex ( row , nowrap , center , center);
+        gap: .5em;
+
+        &:hover {
+            background-color: var(--grey-light);
+            color: var(--green-whatsapp );
+        }
+    }
+    &__icon {
+        max-width: 1em;
+        order: 1;
+    }
+
+}
+
