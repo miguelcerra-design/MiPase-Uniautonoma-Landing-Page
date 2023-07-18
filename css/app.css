@@ -1110,13 +1110,13 @@ header {
   max-width: 175.81px;
   height: 349.38px;
   border-radius: 12px;
-  background: url(/assets/img/bg-video-login.png) no-repeat center center/cover;
+  background: url(../assets/img/bg-video-login.png) no-repeat center center/cover;
 }
 .download__smartphone--two {
   max-width: 175.81px;
   height: 349.38px;
   border-radius: 12px;
-  background: url(/assets/img/bg-video-support.png) no-repeat center center/cover;
+  background: url(../assets/img/bg-video-support.png) no-repeat center center/cover;
 }
 .download__icon {
   position: absolute;
