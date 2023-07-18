@@ -1,5 +1,5 @@
 
-/* bersion 3  con carga primero del DOM*/
+/* Version 3  con carga primero del DOM*/
 
 window.addEventListener('load', () => {
     const button = document.querySelector('.nav__button') as HTMLButtonElement;
